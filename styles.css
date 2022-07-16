@@ -1,15 +1,36 @@
-h1, h2 {
+h2 {
     text-align: center;
 }
 
+div {
+    box-sizing: border-box;    
+}
+
 .header {
-    background-image: url("photo.JPG");
+    background-image: url("photo.JPG");    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 500px;
+    text-align: left;
+    padding-top: 150px;
+    padding-left: 50px;
 }
 
-.main-text {
-    vertical-align: middle;
+.header-name {
+    display: inline-block;
+    padding-top: 25 px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.header-name-text {
+    margin-top: 10px;
+}
+
+.link-buttons {
+    text-align: center;
 }
