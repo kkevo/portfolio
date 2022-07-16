@@ -1,0 +1,15 @@
+h1, h2 {
+    text-align: center;
+}
+
+.header {
+    background-image: url("photo.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+
+.main-text {
+    vertical-align: middle;
+}
