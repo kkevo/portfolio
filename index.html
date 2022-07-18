@@ -8,25 +8,23 @@
 
 <body>
 
-    <div class="navbar">
-        <ul>
-            <li class="navbar-element">
-                About me
-            </li>
-            <li class="navbar-element">
-                Portfolio
-            </li>
-            <li class="navbar-element">
-                Contact me
-            </li>
-        </ul>
+    <div class="navbar-container" style="text-align: center;">
+        <div class="navbar">
+            <ul>                
+                <li class="navbar-element"><a href="#about-section">About me</a></li>
+                <li class="navbar-element"><a href="#skills-section">Skills</a></li>
+                <li class="navbar-element"><a href="#projects-section">Projects</a></li>
+                <li class="navbar-element"><a href="#contact-section">Contact me</a></li>                
+            </ul>
+        </div>
     </div>
+    
 
     <div class="header">
         <div class="header-name">
             <h1 class="header-name-text">
-                Hi there! <br>
-                I'm Kevin Cambronero, and I'm a developer.
+                Hi there!<br>
+                I'm Kevin Cambronero
             </h1>
             <div class="link-buttons">
                 <a href="https://gitlab.com/kvn1902" target="_blank">
@@ -43,12 +41,14 @@
         </div>        
     </div>
     
-    <div class="portfolio-section">
+    <div class="portfolio-section" id="about-section">
         <h2>
             About me
         </h2>
 
         <p>
+            I'm an Electrical Engineer specialized in computers. What I love the most is programming.
+            I started programming 4 years ago and I haven't stopped because I really like it. 
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam imperdiet nulla consectetur 
             velit ornare, in congue erat lobortis. Fusce faucibus finibus orci efficitur scelerisque. 
             Quisque nec eros sapien. Ut condimentum vehicula sem at maximus. Quisque vel euismod ex. 
@@ -58,10 +58,22 @@
             orci et erat euismod volutpat. 
         </p>
     </div>
-    
-    <div class="portfolio-section">
+
+    <div class="portfolio-section" id="skills-section">
         <h2>
-            Portfolio
+            Skills
+        </h2>
+
+        <p>
+            Python, Git, 
+        </p>
+
+        <h3>Next technologies in my to-learn list</h3>
+    </div>
+    
+    <div class="portfolio-section" id="projects-section">
+        <h2>
+            Projects
         </h2>
 
         <p>
@@ -74,39 +86,76 @@
             orci et erat euismod volutpat. 
         </p>
 
-        <div class="project">
+        <div class="projects">
 
-        </div>
+            <div class="project">
+                <div class="project-image">
+                    <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F34%2F2020%2F05%2F04%2Fmaltese-puppy-getty-0520.jpg&q=60" alt="Project picture">
+                    <!-- <img src="a.JPG" alt=""> -->
+                </div>
+                <div class="project-info">
+                    <h3>Flask Website</h3>
+                    <p>
+                        This website is meant to promote small businesses in the Osa Peninsula region of Costa Rica. <br>
+                        Technologies used: Flask (Python) for the backend and Bootstrap for the frontend.
+                    </p>
+                    <div class="link-buttons">
+                        <a href="https://gitlab.com/kvn1902/p-gina-web-osa" target="_blank"><button>Source code</button></a>
+                        <a href="#" target="_blank"><button>Try it</button></a>  
+                    </div>
+                </div>
+            </div>
 
-        <div class="project">
+            <div class="project">
+                <div class="project-image">
+                    <img src="https://d.newsweek.com/en/full/1979380/dog-running-through-autumn-leaves.jpg" alt="Project picture">
+                </div>
+                <div class="project-info">
+                    <h3>Django Website</h3>
+                    <p>
+                        This website is meant to promote public and private organizations in the Osa Peninsula region of Costa Rica. <br>
+                        Technologies used: Django (Python) for the backend and Bootstrap for the frontend.
+                    </p>
+                    <div class="link-buttons">
+                        <a href="https://gitlab.com/kvn1902/pagina-web-organizaciones-e-iniciativas" target="_blank"><button>Source code</button></a>
+                        <a href="#" target="_blank"><button>Try it</button></a>  
+                    </div>
+                </div>
+            </div>
+    
+            <div class="project">
+                <div class="project-image">
+                    <img src="https://i.guim.co.uk/img/media/fe1e34da640c5c56ed16f76ce6f994fa9343d09d/0_174_3408_2046/master/3408.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=0d3f33fb6aa6e0154b7713a00454c83d" alt="Project picture">
+                </div>
+                <div class="project-info">
+                    <h3>Desktop App: Control Systems Simulator</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam imperdiet nulla consectetur 
+                        velit ornare, in congue erat lobortis. Fusce faucibus finibus orci efficitur scelerisque. 
+                        Quisque nec eros sapien. Ut condimentum vehicula sem at maximus. Quisque vel euismod ex. 
+                        Donec viverra, enim in porta mattis, felis massa consequat ante, vestibulum interdum erat 
+                        erat nec erat. Proin sollicitudin scelerisque aliquet. Integer aliquet est et nisl venenatis 
+                        vulputate. Cras cursus dapibus viverra. Vivamus tincidunt et odio eu scelerisque. Sed maximus 
+                        orci et erat euismod volutpat. 
+                    </p>
+                    <div class="link-buttons">
+                        <a href="https://gitlab.com/kvn1902/control-systems-simulator" target="_blank"><button>Source code</button></a>
+                        <a href="#" target="_blank"><button>Try it</button></a>  
+                    </div>
+                </div>
+            </div>
 
-        </div>
-
-        <div class="project">
-
-        </div>
+        </div>        
         
     </div>
     
-    <div class="portfolio-section">
-        <h2>
-            Contact me
-        </h2>
-
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam imperdiet nulla consectetur 
-            velit ornare, in congue erat lobortis. Fusce faucibus finibus orci efficitur scelerisque. 
-            Quisque nec eros sapien. Ut condimentum vehicula sem at maximus. Quisque vel euismod ex. 
-            Donec viverra, enim in porta mattis, felis massa consequat ante, vestibulum interdum erat 
-            erat nec erat. Proin sollicitudin scelerisque aliquet. Integer aliquet est et nisl venenatis 
-            vulputate. Cras cursus dapibus viverra. Vivamus tincidunt et odio eu scelerisque. Sed maximus 
-            orci et erat euismod volutpat. 
-        </p>
-    </div>
+    
     
 
     <footer>
-        Holis
+        <div id="contact-section">
+            <h2>Contact me</h2>
+        </div>
     </footer>
 
 </body>
