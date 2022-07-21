@@ -212,7 +212,7 @@ button {
 }
 
 /* Responsive design */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
     .header {
         background-position: 75%;
     }
@@ -239,5 +239,10 @@ button {
         margin-top: 150px;
         margin-bottom: 150px;
         vertical-align: top;
+    }
+
+    .contact-buttons {
+        grid-template-columns: 1fr;
+        row-gap: 64px;
     }
 }
