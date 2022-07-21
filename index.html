@@ -12,54 +12,61 @@
         <div class="navbar">
             <ul>                
                 <li class="navbar-element"><a href="#about-section">About me</a></li>
-                <li class="navbar-element"><a href="#skills-section">Skills</a></li>
+                <!-- <li class="navbar-element"><a href="#skills-section">Skills</a></li> -->
                 <li class="navbar-element"><a href="#projects-section">Projects</a></li>
                 <li class="navbar-element"><a href="#contact-section">Contact me</a></li>                
             </ul>
         </div>
     </div>
     
-
     <div class="header">
-        <div class="header-name">
-            <h1 class="header-name-text">
-                Hi there!<br>
-                I'm Kevin Cambronero
-            </h1>
-            <div class="link-buttons">
-                <a href="https://gitlab.com/kvn1902" target="_blank">
-                    <button>
-                        Gitlab
-                    </button>
-                </a>
-                <a href="https://www.linkedin.com/in/kevin-cambronero/" target="_blank">
-                    <button>
-                        LinkedIn
-                    </button>
-                </a>                
-            </div>            
-        </div>        
-    </div>
+        <div class="header-color">
+            <div class="header-name">
+                <h1 class="header-name-text">
+                    Hi there!<br>
+                    I'm Kevin Cambronero
+                </h1>
+                <div class="link-buttons">
+                    <a style="color: white; margin: 15px;" href="https://www.linkedin.com/in/kevin-cambronero/" target="_blank"> 
+                        <ion-icon style="font-size: 35px;" name="logo-linkedin"></ion-icon> 
+                    </a>
+                    <a style="color: white; margin: 15px;" href="mailto:kvn1902@hotmail.com" target="_blank"> 
+                        <ion-icon style="font-size: 35px;" name="mail-outline"></ion-icon>
+                    </a>
+                    <a style="color: white; margin: 15px;" href="https://gitlab.com/kvn1902" target="_blank"> 
+                        <ion-icon style="font-size: 35px;" name="logo-gitlab"></ion-icon>
+                    </a>
+                </div>            
+            </div>        
+        </div>
+    </div>    
     
     <div class="portfolio-section" id="about-section">
-        <h2>
+        <h1>
             About me
-        </h2>
+        </h1>
 
-        <p>
-            I'm an Electrical Engineer specialized in computers. What I love the most is programming.
-            I started programming 4 years ago and I haven't stopped because I really like it. 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam imperdiet nulla consectetur 
-            velit ornare, in congue erat lobortis. Fusce faucibus finibus orci efficitur scelerisque. 
-            Quisque nec eros sapien. Ut condimentum vehicula sem at maximus. Quisque vel euismod ex. 
-            Donec viverra, enim in porta mattis, felis massa consequat ante, vestibulum interdum erat 
-            erat nec erat. Proin sollicitudin scelerisque aliquet. Integer aliquet est et nisl venenatis 
-            vulputate. Cras cursus dapibus viverra. Vivamus tincidunt et odio eu scelerisque. Sed maximus 
-            orci et erat euismod volutpat. 
+        <p style="margin-bottom: 15px;">
+            I'm an Electrical Engineer specialized in computers, and programming is what I like the most.
+            I've been programming for around 4 years, and I've used mainly Python, but I also have knowledge
+            in Javascript, C and C++, as well as low-level languages like assembly. 
         </p>
+        <p style="margin-bottom: 15px;">
+            While I was coursing my degree, I had the opportunity to work as a Web Developer assistant, where
+            I learnt the basics of web development from scratch, by myself. I developed a Flask web app focused on tourism, and a Django 
+            web app focused on public and private organizations. I also had the opportunity to collaborate on the 
+            <a href="https://eie.ucr.ac.cr/" target="_blank">webpage</a> of the Electrical Engineering Department, which
+            was developed using Django.
+        </p>
+        <p></p>
+        <p style="margin-bottom: 15px;">
+            I'm constantly learning new things, and I'm looking to gain proffesional experience to develop my career 
+            as a Software Developer.
+        </p>
+
     </div>
 
-    <div class="portfolio-section" id="skills-section">
+    <!-- <div class="portfolio-section" id="skills-section">
         <h2>
             Skills
         </h2>
@@ -69,78 +76,76 @@
         </p>
 
         <h3>Next technologies in my to-learn list</h3>
-    </div>
+    </div> -->
     
     <div class="portfolio-section" id="projects-section">
-        <h2>
+        <h1>
             Projects
-        </h2>
-
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam imperdiet nulla consectetur 
-            velit ornare, in congue erat lobortis. Fusce faucibus finibus orci efficitur scelerisque. 
-            Quisque nec eros sapien. Ut condimentum vehicula sem at maximus. Quisque vel euismod ex. 
-            Donec viverra, enim in porta mattis, felis massa consequat ante, vestibulum interdum erat 
-            erat nec erat. Proin sollicitudin scelerisque aliquet. Integer aliquet est et nisl venenatis 
-            vulputate. Cras cursus dapibus viverra. Vivamus tincidunt et odio eu scelerisque. Sed maximus 
-            orci et erat euismod volutpat. 
-        </p>
+        </h1>
 
         <div class="projects">
 
             <div class="project">
                 <div class="project-image">
-                    <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F34%2F2020%2F05%2F04%2Fmaltese-puppy-getty-0520.jpg&q=60" alt="Project picture">
-                    <!-- <img src="a.JPG" alt=""> -->
+                    <img src="flask.PNG" alt="Project picture">
                 </div>
                 <div class="project-info">
-                    <h3>Flask Website</h3>
-                    <p>
-                        This website is meant to promote small businesses in the Osa Peninsula region of Costa Rica. <br>
-                        Technologies used: Flask (Python) for the backend and Bootstrap for the frontend.
-                    </p>
-                    <div class="link-buttons">
-                        <a href="https://gitlab.com/kvn1902/p-gina-web-osa" target="_blank"><button>Source code</button></a>
-                        <a href="#" target="_blank"><button>Try it</button></a>  
+                    <h2>Flask Web App</h2>
+                    <p>This website is meant to promote small businesses and tourism in the Osa Peninsula region of Costa Rica.</p>
+                    <p>Technologies/tools: Python, Flask, SQLAlchemy, Bootstrap, Javascript, Google Maps API.</p>
+                    <div class="project-buttons">
+                        <form style="display: inline;" action="http://osaprueba.pythonanywhere.com/" method="get" target="_blank">
+                            <button class="primary-project-button">Demo</button>
+                        </form>  
+                        <form style="display: inline;" action="https://gitlab.com/kvn1902/p-gina-web-osa" method="get" target="_blank">
+                            <button class="secondary-project-button">Source code</button>
+                        </form>                        
                     </div>
                 </div>
             </div>
 
             <div class="project">
                 <div class="project-image">
-                    <img src="https://d.newsweek.com/en/full/1979380/dog-running-through-autumn-leaves.jpg" alt="Project picture">
+                    <img src="django.PNG" alt="Project picture">
                 </div>
                 <div class="project-info">
-                    <h3>Django Website</h3>
-                    <p>
-                        This website is meant to promote public and private organizations in the Osa Peninsula region of Costa Rica. <br>
-                        Technologies used: Django (Python) for the backend and Bootstrap for the frontend.
+                    <h2>Django Web App</h2>
+                    <p>This website is meant to promote public and private organizations in the Osa Peninsula region of Costa Rica.
+                        The project is temporarily paused, so some feautes haven't been fully implemented yet.
                     </p>
-                    <div class="link-buttons">
-                        <a href="https://gitlab.com/kvn1902/pagina-web-organizaciones-e-iniciativas" target="_blank"><button>Source code</button></a>
-                        <a href="#" target="_blank"><button>Try it</button></a>  
+                        
+                    <p>Technologies/tools: Python, Django, Bootstrap, Open Street Maps API.</p>
+                    <div class="project-buttons">
+                        <form style="display: inline;" action="http://kcambro.pythonanywhere.com/" method="get" target="_blank">
+                            <button class="primary-project-button">Demo</button>
+                        </form>                          
+                        <form style="display: inline;" action="https://gitlab.com/kvn1902/pagina-web-organizaciones-e-iniciativas" method="get" target="_blank">
+                            <button class="secondary-project-button">Source code</button>
+                        </form>                        
                     </div>
                 </div>
             </div>
     
             <div class="project">
                 <div class="project-image">
-                    <img src="https://i.guim.co.uk/img/media/fe1e34da640c5c56ed16f76ce6f994fa9343d09d/0_174_3408_2046/master/3408.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=0d3f33fb6aa6e0154b7713a00454c83d" alt="Project picture">
+                    <img src="simulator.PNG" alt="Project picture">
                 </div>
                 <div class="project-info">
-                    <h3>Desktop App: Control Systems Simulator</h3>
+                    <h2>Desktop App: Control Systems Simulator</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam imperdiet nulla consectetur 
-                        velit ornare, in congue erat lobortis. Fusce faucibus finibus orci efficitur scelerisque. 
-                        Quisque nec eros sapien. Ut condimentum vehicula sem at maximus. Quisque vel euismod ex. 
-                        Donec viverra, enim in porta mattis, felis massa consequat ante, vestibulum interdum erat 
-                        erat nec erat. Proin sollicitudin scelerisque aliquet. Integer aliquet est et nisl venenatis 
-                        vulputate. Cras cursus dapibus viverra. Vivamus tincidunt et odio eu scelerisque. Sed maximus 
-                        orci et erat euismod volutpat. 
+                        This tool allows you to simulate a variety of control systems by modifying both controller 
+                        and plant parameters. It displays the results graphically along with performance indicators.
+                    </p>                    
+                    <p>
+                        It's meant to help Electrical Engineering students better understand control systems.
                     </p>
-                    <div class="link-buttons">
-                        <a href="https://gitlab.com/kvn1902/control-systems-simulator" target="_blank"><button>Source code</button></a>
-                        <a href="#" target="_blank"><button>Try it</button></a>  
+                    <p>
+                        Technologies/tools: Python, PyQt5.
+                    </p>
+                    <div class="project-buttons">
+                        <form style="display: inline;" action="https://gitlab.com/kvn1902/control-systems-simulator" method="get" target="_blank">
+                            <button class="secondary-project-button">Source code</button>
+                        <forma>
                     </div>
                 </div>
             </div>
@@ -149,15 +154,38 @@
         
     </div>
     
-    
+    <div class="portfolio-section" id="contact-section">
+        <h1> Contact me </h1>
+        <h3 style="text-align: center; margin-bottom: 64px;"> Let's talk! You can reach me at: </h3>
+        <div class="contact-buttons">
+            <div class="contact-link">
+                <a href="https://www.linkedin.com/in/kevin-cambronero/" target="_blank"> 
+                    <ion-icon style="font-size: 50px;" name="logo-linkedin"></ion-icon> 
+                </a>
+                <p>LinkedIn</p>
+            </div>
+            <div class="contact-link">
+                <a href="mailto:kvn1902@hotmail.com" target="_blank"> 
+                    <ion-icon style="font-size: 50px;" name="mail-outline"></ion-icon>
+                </a>
+                <p>Email: kvn1902@hotmail.com</p>
+            </div>
+            <div class="contact-link">
+                <a href="https://gitlab.com/kvn1902" target="_blank"> 
+                    <ion-icon style="font-size: 50px;" name="logo-gitlab"></ion-icon>
+                </a>
+                <p>GitLab</p>
+            </div>
+        </div>        
+    </div>
     
 
     <footer>
-        <div id="contact-section">
-            <h2>Contact me</h2>
-        </div>
+        <h3>Created by Kevin Cambronero</h3>
     </footer>
 
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
