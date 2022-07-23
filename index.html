@@ -37,7 +37,7 @@
                         <ion-icon style="font-size: 35px;" name="logo-gitlab"></ion-icon>
                     </a>
                 </div>            
-            </div>        
+            </div>                  
         </div>
     </div>    
     
@@ -46,23 +46,31 @@
             About me
         </h1>
 
-        <p style="margin-bottom: 15px;">
-            I'm an Electrical Engineer specialized in computers, and programming is what I like the most.
-            I've been programming for around 4 years, and I have 1 year of relevant experience developing Python web 
-            and desktop apps. I also have knowledge in Javascript, C and C++, as well as low-level languages like assembly. 
-        </p>
-        <p style="margin-bottom: 15px;">
-            While I was coursing my degree, I had the opportunity to work as a Web Developer assistant, where
-            I learnt the basics of web development from scratch, by myself. I developed a Flask web app focused on tourism, and a Django 
-            web app focused on public and private organizations. I also had the opportunity to collaborate on the 
-            <a href="https://eie.ucr.ac.cr/" target="_blank">webpage</a> of the Electrical Engineering Department, which
-            was developed using Django.
-        </p>
-        <p></p>
-        <p style="margin-bottom: 15px;">
-            I'm constantly learning new things, and I'm looking to gain professional experience to develop my career 
-            as a Software Developer.
-        </p>
+        <div class="about-me-section">
+            <div>
+                <img src="img/profile.JPG" alt="">
+            </div>
+    
+            <div>
+                <p style="margin-bottom: 15px;">
+                    I'm an Electrical Engineer specialized in computers, and programming is what I like the most.
+                    I've been programming for around 4 years, and I have 1 year of relevant experience developing Python web 
+                    and desktop apps. I also have knowledge in Javascript, C and C++, as well as low-level languages like assembly. 
+                </p>
+                <p style="margin-bottom: 15px;">
+                    While I was coursing my degree, I had the opportunity to work as a Web Developer assistant, where
+                    I learnt the basics of web development from scratch, by myself. I developed a Flask web app focused on tourism, and a Django 
+                    web app focused on public and private organizations. I also had the opportunity to collaborate on the 
+                    <a href="https://eie.ucr.ac.cr/" target="_blank">webpage</a> of the Electrical Engineering Department, which
+                    was developed using Django.
+                </p>
+                <p></p>
+                <p style="margin-bottom: 15px;">
+                    I'm constantly learning new things, and I'm looking to gain professional experience to develop my career 
+                    as a Software Developer.
+                </p>
+            </div> 
+        </div>            
 
     </div>
 
@@ -87,11 +95,14 @@
 
             <div class="project">
                 <div class="project-image">
-                    <img src="flask.PNG" alt="Project picture">
+                    <img src="img/flask.PNG" alt="Project picture">
                 </div>
                 <div class="project-info">
                     <h2>Flask Web App</h2>
-                    <p>This website is meant to promote small businesses and tourism in the Osa Peninsula region of Costa Rica.</p>
+                    <p>
+                        This website is meant to promote small businesses and tourism in the Osa Peninsula region of Costa Rica.
+                        The information is dynamically displayed as it gets added to the database.
+                    </p>
                     <p>Technologies/tools: Python, Flask, SQLAlchemy, Bootstrap, Javascript, Google Maps API.</p>
                     <div class="project-buttons">
                         <form style="display: inline;" action="http://osaprueba.pythonanywhere.com/" method="get" target="_blank">
@@ -104,15 +115,20 @@
                 </div>
             </div>
 
+            <hr>
+
             <div class="project">
                 <div class="project-image">
-                    <img src="django.PNG" alt="Project picture">
+                    <img src="img/django.PNG" alt="Project picture">
                 </div>
                 <div class="project-info">
                     <h2>Django Web App</h2>
-                    <p>This website is meant to promote public and private organizations in the Osa Peninsula region of Costa Rica.
-                        The project is temporarily paused, so some feautes haven't been fully implemented yet.
+                    <p>
+                        This website is meant to promote public and private organizations in the Osa Peninsula region of Costa Rica.
+                        The information is dynamically displayed as it gets added to the database.
                     </p>
+
+                    <p>The project is temporarily paused, so some features haven't been fully implemented yet.</p>
                         
                     <p>Technologies/tools: Python, Django, Bootstrap, Open Street Maps API.</p>
                     <div class="project-buttons">
@@ -125,10 +141,12 @@
                     </div>
                 </div>
             </div>
+
+            <hr>
     
             <div class="project">
                 <div class="project-image">
-                    <img src="simulator.PNG" alt="Project picture">
+                    <img src="img/simulator.PNG" alt="Project picture">
                 </div>
                 <div class="project-info">
                     <h2>Desktop App: Control Systems Simulator</h2>
