@@ -12,7 +12,6 @@
         <div class="navbar">
             <ul>                
                 <li class="navbar-element"><a href="#about-section">About me</a></li>
-                <!-- <li class="navbar-element"><a href="#skills-section">Skills</a></li> -->
                 <li class="navbar-element"><a href="#projects-section">Projects</a></li>
                 <li class="navbar-element"><a href="#contact-section">Contact me</a></li>                
             </ul>
@@ -22,22 +21,25 @@
     <div class="header">
         <div class="header-color">
             <div class="header-name">
-                <h1 class="header-name-text">
-                    Hi there!<br>
-                    I'm Kevin Cambronero
-                </h1>
+                <div class="header-name-text">  
+                    <h1>Kevin Cambronero</h1>
+                    <h3>Software Developer</h3>
+                </div>
                 <div class="link-buttons">
-                    <a style="color: white; margin: 15px;" href="https://www.linkedin.com/in/kevin-cambronero/" target="_blank"> 
-                        <ion-icon style="font-size: 35px;" name="logo-linkedin"></ion-icon> 
+                    <a class="contact-icon" href="https://www.linkedin.com/in/kevin-cambronero/" target="_blank"> 
+                        <ion-icon style="font-size: 200%;" name="logo-linkedin"></ion-icon> 
                     </a>
-                    <a style="color: white; margin: 15px;" href="mailto:kvn1902@hotmail.com" target="_blank"> 
-                        <ion-icon style="font-size: 35px;" name="mail-outline"></ion-icon>
+                    <a class="contact-icon" href="mailto:kvn1902@hotmail.com" target="_blank"> 
+                        <ion-icon style="font-size: 200%;" name="mail-outline"></ion-icon>
                     </a>
-                    <a style="color: white; margin: 15px;" href="https://gitlab.com/kvn1902" target="_blank"> 
-                        <ion-icon style="font-size: 35px;" name="logo-gitlab"></ion-icon>
+                    <a class="contact-icon" href="https://gitlab.com/kvn1902" target="_blank"> 
+                        <ion-icon style="font-size: 200%;" name="logo-gitlab"></ion-icon>
                     </a>
                 </div>            
             </div>                  
+        </div>
+        <div class="picture">
+            <img src="img/software-de-diseno.PNG" alt="Profile drawing">
         </div>
     </div>    
     
@@ -53,16 +55,16 @@
     
             <div>
                 <p style="margin-bottom: 15px;">
-                    I'm an Electrical Engineer specialized in computers, and programming is what I like the most.
-                    I've been programming for around 4 years, and I have 1 year of relevant experience developing Python web 
-                    and desktop apps. I also have knowledge in Javascript, C and C++, as well as low-level languages like assembly. 
+                    I've been programming for around 4 years, and I have 1 year of relevant experience developing <strong>Python web 
+                    and desktop apps</strong>. I also have knowledge in <strong>Javascript</strong>, C and C++, as well as low-level 
+                    languages like assembly. 
                 </p>
                 <p style="margin-bottom: 15px;">
-                    While I was coursing my degree, I had the opportunity to work as a Web Developer assistant, where
-                    I learnt the basics of web development from scratch, by myself. I developed a Flask web app focused on tourism, and a Django 
-                    web app focused on public and private organizations. I also had the opportunity to collaborate on the 
-                    <a href="https://eie.ucr.ac.cr/" target="_blank">webpage</a> of the Electrical Engineering Department, which
-                    was developed using Django.
+                    While I was coursing my Engineering degree, I had the opportunity to work as a <strong>Web Developer assistant</strong>, where
+                    I learnt the basics of web development from scratch, by myself. I developed a <strong>Flask web app</strong> focused 
+                    on tourism, and a <strong>Django web app</strong> focused on public and private organizations. I also had the 
+                    opportunity to collaborate on the <a href="https://eie.ucr.ac.cr/" target="_blank">webpage</a> of the Electrical 
+                    Engineering Department, which was developed using <strong>Django</strong>.
                 </p>
                 <p></p>
                 <p style="margin-bottom: 15px;">
@@ -73,18 +75,6 @@
         </div>            
 
     </div>
-
-    <!-- <div class="portfolio-section" id="skills-section">
-        <h2>
-            Skills
-        </h2>
-
-        <p>
-            Python, Git, 
-        </p>
-
-        <h3>Next technologies in my to-learn list</h3>
-    </div> -->
     
     <div class="portfolio-section" id="projects-section">
         <h1>
@@ -104,13 +94,13 @@
                         The information is dynamically displayed as it gets added to the database.
                     </p>
                     <p>Technologies/tools: Python, Flask, SQLAlchemy, Bootstrap, Javascript, Google Maps API.</p>
-                    <div class="project-buttons">
-                        <form style="display: inline;" action="http://osaprueba.pythonanywhere.com/" method="get" target="_blank">
+                    <div>
+                        <a class="project-button" style="display: inline;" href="http://osaprueba.pythonanywhere.com/" target="_blank">
                             <button class="primary-project-button">Try it</button>
-                        </form>  
-                        <form style="display: inline;" action="https://gitlab.com/kvn1902/p-gina-web-osa" method="get" target="_blank">
+                        </a>  
+                        <a class="project-button" style="display: inline;" href="https://gitlab.com/kvn1902/p-gina-web-osa" target="_blank">
                             <button class="secondary-project-button">Source code</button>
-                        </form>                        
+                        </a>                        
                     </div>
                 </div>
             </div>
@@ -131,13 +121,13 @@
                     <p>The project is temporarily paused, so some features haven't been fully implemented yet.</p>
                         
                     <p>Technologies/tools: Python, Django, Bootstrap, Open Street Maps API.</p>
-                    <div class="project-buttons">
-                        <form style="display: inline;" action="http://kcambro.pythonanywhere.com/" method="get" target="_blank">
+                    <div>
+                        <a class="project-button" style="display: inline;" href="http://kcambro.pythonanywhere.com/" target="_blank">
                             <button class="primary-project-button">Try it</button>
-                        </form>                          
-                        <form style="display: inline;" action="https://gitlab.com/kvn1902/pagina-web-organizaciones-e-iniciativas" method="get" target="_blank">
+                        </a>                          
+                        <a class="project-button" style="display: inline;" href="https://gitlab.com/kvn1902/pagina-web-organizaciones-e-iniciativas" target="_blank">
                             <button class="secondary-project-button">Source code</button>
-                        </form>                        
+                        </a>                        
                     </div>
                 </div>
             </div>
@@ -160,10 +150,10 @@
                     <p>
                         Technologies/tools: Python, PyQt5.
                     </p>
-                    <div class="project-buttons">
-                        <form style="display: inline;" action="https://gitlab.com/kvn1902/control-systems-simulator" method="get" target="_blank">
+                    <div>
+                        <a class="project-button" style="display: inline;" href="https://gitlab.com/kvn1902/control-systems-simulator" target="_blank">
                             <button class="secondary-project-button">Source code</button>
-                        <forma>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -174,23 +164,23 @@
     
     <div class="portfolio-section" id="contact-section">
         <h1> Contact me </h1>
-        <h3 style="text-align: center; margin-bottom: 64px;"> Let's talk! You can reach me at: </h3>
+        <p style="text-align: center; margin-bottom: 64px;"> Let's talk! You can reach me at: </p>
         <div class="contact-buttons">
             <div class="contact-link">
                 <a href="https://www.linkedin.com/in/kevin-cambronero/" target="_blank"> 
-                    <ion-icon style="font-size: 50px;" name="logo-linkedin"></ion-icon> 
+                    <ion-icon style="font-size: 4rem;" name="logo-linkedin"></ion-icon> 
                 </a>
                 <p>LinkedIn</p>
             </div>
             <div class="contact-link">
                 <a href="mailto:kvn1902@hotmail.com" target="_blank"> 
-                    <ion-icon style="font-size: 50px;" name="mail-outline"></ion-icon>
+                    <ion-icon style="font-size: 4rem;" name="mail-outline"></ion-icon>
                 </a>
                 <p>Email: kvn1902@hotmail.com</p>
             </div>
             <div class="contact-link">
                 <a href="https://gitlab.com/kvn1902" target="_blank"> 
-                    <ion-icon style="font-size: 50px;" name="logo-gitlab"></ion-icon>
+                    <ion-icon style="font-size: 4rem;" name="logo-gitlab"></ion-icon>
                 </a>
                 <p>GitLab</p>
             </div>
