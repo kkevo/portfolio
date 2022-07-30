@@ -109,6 +109,10 @@ button {
     font-size: 4rem;
 }
 
+.fa-d, .fa-j {
+    font-size: 2rem;
+}
+
 .portfolio-section {
     margin-top: 6rem;   
     margin-left: 1%;
