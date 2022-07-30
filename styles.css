@@ -18,13 +18,13 @@ ul {
 }
 
 h1, h2, h3, p {
-    margin: 0px;
-    padding: 0px;
+    margin: 0rem;
+    padding: 0rem;
 }
 
 p {
     text-align: justify;
-    font-size: 20px;
+    font-size: 1.3rem;
 }
 
 footer {
@@ -37,10 +37,6 @@ footer {
 
 footer>p {
     text-align: center;
-}
-
-button {
-    padding: 5px;
 }
 
 button { 
@@ -106,7 +102,7 @@ button {
 }
 
 .picture>img {
-    width: 70%;
+    width: 45%;
 }
 
 .fa-brands, .fa-solid {
@@ -152,7 +148,7 @@ button {
 #skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 5rem), 1fr));    
-    gap: 3rem;
+    gap: 6rem;
 }
 
 .skill {
