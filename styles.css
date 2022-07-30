@@ -122,6 +122,10 @@ button {
     width: 70%;
 }
 
+.fa-brands {
+    font-size: 4rem;
+}
+
 .portfolio-section {
     margin-top: 100px;   
     margin-left: 1%;
@@ -162,6 +166,7 @@ button {
 #skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 5rem), 1fr));    
+    gap: 3rem;
 }
 
 .skill {
@@ -177,9 +182,7 @@ button {
     display: grid;
     grid-template-columns: 2fr 3fr;        
     width: 100%;
-    margin-top: 75px;
-    margin-bottom: 75px;
-    /* vertical-align: top; */
+    align-items: center;
 }
 
 .project>div {
@@ -251,7 +254,7 @@ button {
 }
 
 
-/* Responsive design */
+/* Media queries */
 
 @media (min-width: 69rem) {
     .header {
