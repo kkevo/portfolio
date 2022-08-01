@@ -150,12 +150,17 @@ button {
 
 #skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 5rem), 1fr));    
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 6rem), 1fr));    
     gap: 6rem;
+    align-items: flex-end;
 }
 
 .skill {
     text-align: center;
+}
+
+.skill>img {
+    width: 100%;
 }
 
 .projects {
